@@ -1,4 +1,4 @@
-# Gaussian Elimination
+![{766709A0-6E34-4A4E-B67F-749BB5C04692}](https://github.com/user-attachments/assets/5521a02c-d772-4b3c-b16d-f8ac9968fd04)# Gaussian Elimination
 
 ## AIM:
 To write a program to find the solution of a matrix using Gaussian Elimination.
@@ -20,7 +20,6 @@ Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: ARUN S
 RegisterNumber: 24900219
 */
-```
 import numpy as np
 n=int(input())
 matrix=np.zeros((n,n+1))
@@ -42,11 +41,14 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/matrix[i][i]
 for i in range(n):
     print("X%d = %0.2f" %(i,x[i]),end=" ")
+
+
 ```
 
 
 ## Output:
-![Screenshot 2024-11-28 204247](https://github.com/user-attachments/assets/a3dfab80-1549-4f06-99e3-233c0635ff40)
+![Screenshot 2024-12-05 193100](https://github.com/user-attachments/assets/cee53f4c-a6c5-4219-8a68-113f04ee2156)
+
 
 
 
